@@ -4,9 +4,11 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Profile from './pages/Profile';
 import About from './pages/About';
+import Hedaer from './Component/Hedaer';
 const App = () => {
   return (
     <BrowserRouter>
+    <Hedaer></Hedaer>
     <Routes>
       <Route path ='/' element = {<Home></Home>} />
       <Route path ='/sign-in' element = {<SignIn></SignIn>} />
